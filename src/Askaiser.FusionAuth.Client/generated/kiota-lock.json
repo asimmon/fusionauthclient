@@ -1,0 +1,24 @@
+{
+  "descriptionHash": "7D42BD5F8BCD540A63939ED49D78D33F5D8995B3FA8A0E94955893A2609F4F9814FB7C65CA6869F85B95F90EFEB8F1559DB40A0230290E96F85736A35A3DA735",
+  "descriptionLocation": "..\\fusionauth.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.10.1",
+  "clientClassName": "BaseFusionAuthClient",
+  "clientNamespaceName": "Askaiser.FusionAuth.Client",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

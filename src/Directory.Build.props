@@ -9,7 +9,7 @@
     <LangVersion>12</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Description>TODO.</Description>
+    <Description>Demo example of a generated .NET client for FusionAuth using Kiota.</Description>
     <AnalysisLevel>latest-all</AnalysisLevel>
   </PropertyGroup>
 

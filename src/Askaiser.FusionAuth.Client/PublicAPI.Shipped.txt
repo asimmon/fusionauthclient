@@ -1,1 +1,9 @@
 #nullable enable
+Askaiser.FusionAuth.Client.FusionAuthClient
+Askaiser.FusionAuth.Client.FusionAuthClient.Dispose() -> void
+Askaiser.FusionAuth.Client.FusionAuthClient.FusionAuthClient(Microsoft.Kiota.Abstractions.IRequestAdapter! requestAdapter, string? baseUrl = null) -> void
+Askaiser.FusionAuth.Client.FusionAuthClient.FusionAuthClient(string! apiKey, string! baseUrl) -> void
+Askaiser.FusionAuth.Client.FusionAuthClient.FusionAuthClient(System.Net.Http.HttpClient! httpClient, string! apiKey, string? baseUrl = null) -> void
+Askaiser.FusionAuth.Client.RequestConfigurationExtensions
+static Askaiser.FusionAuth.Client.RequestConfigurationExtensions.WithTenantId<T>(this Microsoft.Kiota.Abstractions.RequestConfiguration<T!>! requestConfiguration, string! tenantId) -> void
+virtual Askaiser.FusionAuth.Client.FusionAuthClient.Dispose(bool disposing) -> void

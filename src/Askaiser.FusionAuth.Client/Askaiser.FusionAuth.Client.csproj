@@ -10,6 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Kiota.Abstractions" Version="1.7.6" />
+    <PackageReference Include="Microsoft.Kiota.Http.HttpClientLibrary" Version="1.3.4" />
+    <PackageReference Include="Microsoft.Kiota.Serialization.Json" Version="1.1.2" />
     <PackageReference Include="Microsoft.CodeAnalysis.PublicApiAnalyzers" Version="3.3.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -18,6 +21,7 @@
 
   <ItemGroup>
     <None Include="..\..\README.md" Link="README.md" Pack="true" PackagePath="\" />
+    <None Include="fusionauth.yaml" CopyToOutputDirectory="Never" CopyToPublishDirectory="Never" Pack="false" />
   </ItemGroup>
 
   <ItemGroup>
